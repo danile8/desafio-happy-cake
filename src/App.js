@@ -9,13 +9,11 @@ import Contacto from './components/Contacto';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
-    </BrowserRouter>
   </div>
   );
 }
